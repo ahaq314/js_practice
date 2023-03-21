@@ -1,1 +1,3 @@
-console.log("hello");
+let object = {
+	name : "Ehsan"
+}
