@@ -1,3 +1,0 @@
-let object = {
-	name : "Ehsan"
-}
