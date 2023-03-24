@@ -1,16 +1,15 @@
 let data = [2,9,3,6,5,8,12];
-let len = data.length;
-for(i = 0;i < len; i++)
+
+for(i = 0; i < data.length ; i++)
 {
-	for(j = 0;j < len; j++)
+	for(j = 0;j < data.length ; j++)
 	{
-		if(data[j] > data[j+1])
+		if (data[j] > data[j+1])
 		{
 			let temp = data[j];
 			data[j] = data[j+1];
-			temp = data[j+1];
-	
+			data[j+1] = temp;
 		}
-			}
 	}
+}
 console.log(data);
